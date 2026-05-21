@@ -165,6 +165,22 @@
         }
 
         .empty-state p { font-size: 14px; }
+
+        .history-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            margin-top: 40px;
+            color: var(--text-muted);
+            text-decoration: none;
+            font-size: 13px;
+            font-weight: 600;
+            transition: color 0.2s;
+        }
+
+        .history-link:hover { color: var(--accent); }
+
+        .history-link svg { width: 16px; height: 16px; }
     </style>
 </head>
 <body>
@@ -177,6 +193,10 @@
         <p class="subtitle">选择适合你的安装包格式</p>
         <div class="file-list" id="file-list">
         </div>
+        <a href="https://github.com/CoconutHR/MurmblePages/releases" class="history-link" target="_blank">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            查看历史版本
+        </a>
     </div>
 
     <script>
