@@ -853,6 +853,10 @@
                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg>
                     下载安装包
                 </a>
+                <a href="#" class="btn-secondary" id="fast-download-btn" onclick="fastDownload(event)">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+                    加速下载
+                </a>
             </div>
             <p class="version-tag">支持 Windows · macOS · Linux 三平台</p>
         </div>
@@ -1079,6 +1083,41 @@
         });
 
         document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+
+        // 加速下载：检测平台，从 releases.json 获取对应链接
+        function fastDownload(e) {
+            e.preventDefault();
+            const btn = document.getElementById('fast-download-btn');
+            btn.textContent = '检测中...';
+
+            fetch('./releases/releases.json')
+                .then(r => r.json())
+                .then(data => {
+                    const ua = navigator.userAgent.toLowerCase();
+                    let platform = 'windows';
+                    if (ua.includes('mac')) platform = 'macos';
+                    else if (ua.includes('linux')) platform = 'linux';
+
+                    // 优先选择：windows→exe, macos→dmg, linux→AppImage
+                    const preferred = { windows: 'nsis', macos: 'dmg', linux: 'appimage' };
+                    const files = data.files || [];
+                    let target = files.find(f => f.platform === platform && f.type === preferred[platform]);
+                    if (!target) target = files.find(f => f.platform === platform);
+
+                    if (target && target.url) {
+                        btn.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg> 加速下载';
+                        window.location.href = target.url;
+                    } else {
+                        btn.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg> 加速下载';
+                        // fallback: 跳转到 release 页面
+                        window.location.href = 'https://github.com/CoconutHR/MurmblePages/releases/latest';
+                    }
+                })
+                .catch(() => {
+                    btn.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg> 加速下载';
+                    window.location.href = 'https://github.com/CoconutHR/MurmblePages/releases/latest';
+                });
+        }
     </script>
 </body>
 </html>
