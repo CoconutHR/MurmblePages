@@ -245,8 +245,15 @@
                         desc = '安装包';
                     }
 
+                    // 使用 GitHub 原生下载链接（去掉 gh-proxy 前缀）
+                    let downloadUrl = file.url || `./${file.name}`;
+                    const proxyPrefix = 'https://gh-proxy.com/';
+                    if (downloadUrl.startsWith(proxyPrefix)) {
+                        downloadUrl = downloadUrl.slice(proxyPrefix.length);
+                    }
+
                     return `
-                        <a href="./${file.name}" class="file-item" download>
+                        <a href="${downloadUrl}" class="file-item">
                             <div class="file-icon">
                                 <svg viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg>
                             </div>
