@@ -140,6 +140,24 @@
             border: 1px solid rgba(96, 165, 250, 0.2);
         }
 
+        .badge-deb {
+            background: rgba(251, 146, 60, 0.12);
+            color: #fb923c;
+            border: 1px solid rgba(251, 146, 60, 0.2);
+        }
+
+        .badge-dmg {
+            background: rgba(232, 121, 249, 0.12);
+            color: #e879f9;
+            border: 1px solid rgba(232, 121, 249, 0.2);
+        }
+
+        .badge-appimage {
+            background: rgba(45, 212, 191, 0.12);
+            color: #2dd4bf;
+            border: 1px solid rgba(45, 212, 191, 0.2);
+        }
+
         .empty-state {
             text-align: center;
             padding: 60px 20px;
@@ -178,9 +196,34 @@
 
                 container.innerHTML = data.files.map(file => {
                     const ext = file.name.split('.').pop().toLowerCase();
-                    const badgeClass = ext === 'exe' ? 'badge-exe' : 'badge-msi';
-                    const badgeText = ext === 'exe' ? 'NSIS' : 'MSI';
-                    const desc = ext === 'exe' ? '推荐 · NSIS 安装程序' : 'Windows Installer 包';
+                    const isAppImage = file.name.toLowerCase().endsWith('.appimage');
+                    let badgeClass, badgeText, desc;
+
+                    if (isAppImage) {
+                        badgeClass = 'badge-appimage';
+                        badgeText = 'AppImage';
+                        desc = 'Linux 便携运行格式';
+                    } else if (ext === 'exe') {
+                        badgeClass = 'badge-exe';
+                        badgeText = 'NSIS';
+                        desc = '推荐 · NSIS 安装程序';
+                    } else if (ext === 'msi') {
+                        badgeClass = 'badge-msi';
+                        badgeText = 'MSI';
+                        desc = 'Windows Installer 包';
+                    } else if (ext === 'deb') {
+                        badgeClass = 'badge-deb';
+                        badgeText = 'DEB';
+                        desc = 'Debian/Ubuntu 安装包';
+                    } else if (ext === 'dmg') {
+                        badgeClass = 'badge-dmg';
+                        badgeText = 'DMG';
+                        desc = 'macOS 安装镜像';
+                    } else {
+                        badgeClass = 'badge-msi';
+                        badgeText = ext.toUpperCase();
+                        desc = '安装包';
+                    }
 
                     return `
                         <a href="./${file.name}" class="file-item" download>
