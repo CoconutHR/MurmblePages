@@ -1,41 +1,41 @@
 {
-  "version": "v2.2.1",
+  "version": "v2.2.2",
   "date": "2026-05-27",
   "files": [
     {
-      "name": "Murmble_2.2.1_aarch64.dmg",
+      "name": "Murmble_2.2.2_aarch64.dmg",
       "size": "8.6 MB",
       "type": "dmg",
       "platform": "macos",
-      "url": "https://gh-proxy.com/https://github.com/CoconutHR/MurmblePages/releases/download/v2.2.1/Murmble_2.2.1_aarch64.dmg"
+      "url": "https://gh-proxy.com/https://github.com/CoconutHR/MurmblePages/releases/download/v2.2.2/Murmble_2.2.2_aarch64.dmg"
     },
     {
-      "name": "Murmble_2.2.1_amd64.AppImage",
+      "name": "Murmble_2.2.2_amd64.AppImage",
       "size": "83.9 MB",
       "type": "appimage",
       "platform": "linux",
-      "url": "https://gh-proxy.com/https://github.com/CoconutHR/MurmblePages/releases/download/v2.2.1/Murmble_2.2.1_amd64.AppImage"
+      "url": "https://gh-proxy.com/https://github.com/CoconutHR/MurmblePages/releases/download/v2.2.2/Murmble_2.2.2_amd64.AppImage"
     },
     {
-      "name": "Murmble_2.2.1_amd64.deb",
+      "name": "Murmble_2.2.2_amd64.deb",
       "size": "8.6 MB",
       "type": "deb",
       "platform": "linux",
-      "url": "https://gh-proxy.com/https://github.com/CoconutHR/MurmblePages/releases/download/v2.2.1/Murmble_2.2.1_amd64.deb"
+      "url": "https://gh-proxy.com/https://github.com/CoconutHR/MurmblePages/releases/download/v2.2.2/Murmble_2.2.2_amd64.deb"
     },
     {
-      "name": "Murmble_2.2.1_x64-setup.exe",
-      "size": "5.1 MB",
+      "name": "Murmble_2.2.2_x64-setup.exe",
+      "size": "5.0 MB",
       "type": "nsis",
       "platform": "windows",
-      "url": "https://gh-proxy.com/https://github.com/CoconutHR/MurmblePages/releases/download/v2.2.1/Murmble_2.2.1_x64-setup.exe"
+      "url": "https://gh-proxy.com/https://github.com/CoconutHR/MurmblePages/releases/download/v2.2.2/Murmble_2.2.2_x64-setup.exe"
     },
     {
-      "name": "Murmble_2.2.1_x64_en-US.msi",
+      "name": "Murmble_2.2.2_x64_en-US.msi",
       "size": "7.5 MB",
       "type": "msi",
       "platform": "windows",
-      "url": "https://gh-proxy.com/https://github.com/CoconutHR/MurmblePages/releases/download/v2.2.1/Murmble_2.2.1_x64_en-US.msi"
+      "url": "https://gh-proxy.com/https://github.com/CoconutHR/MurmblePages/releases/download/v2.2.2/Murmble_2.2.2_x64_en-US.msi"
     }
   ]
 }
