@@ -1,27 +1,27 @@
 {
-  "version": "v2.3.2",
-  "notes": "Murmble v2.3.2 released.",
-  "pub_date": "2026-06-05T11:59:08Z",
+  "version": "v2.3.3",
+  "notes": "Murmble v2.3.3 released.",
+  "pub_date": "2026-06-05T20:13:47Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTYXdLN09jQlhNRWVvYjQ5R0tqZlhkTU1zL0gxZHcrT09LZ0YycklsWVEwbnY3NnVPM2tEQ01BUHZxenAyZVUveUlCLzVMLzVXSEJwYWZCWlc3SlZxTG9qeFFMVjgzbkFjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgwNjYwNjM2CWZpbGU6TXVybWJsZV8yLjMuMl94NjQtc2V0dXAuZXhlCjM5T2diWTVQTnRibVh5d3VLWlc5WTJ2eW5pZG5yc0JvRXo1MDJhMC9hRFN6cXJxK0g4M0JqTDJnWjE5dkVjUGdpNlRhY1NSdTI0S3Fmblk1SDFDNkFnPT0K",
-      "url": "https://gh-proxy.com/https://github.com/CoconutHR/MurmblePages/releases/download/v2.3.2/Murmble_2.3.2_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTYXdLN09jQlhNRWZXLzFaUm9uSlE1WUwrR1Y0a0ZRYS9SUXdvbnY4c3VtWkZMN2toZmdTMUdnMjMxdEJPdG9pK2EvWWpjVDZNdmNsNHRCdGsxN2xLQXk1b2Vkc3JTbUFzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgwNjkwMjQ3CWZpbGU6TXVybWJsZV8yLjMuM194NjQtc2V0dXAuZXhlClpwbVh3MmZ1WUdLQVkzdnlRbllwVVE1T0M0MDFBQ0sxMGU5Ri9jbTI2QlRRKzV6b0VSc1NKeklRS0lKakVFSUJLa3ZiblB3NTRsUUlWeXVDTC96U0FRPT0K",
+      "url": "https://murmble.qzz.io/dl/v2.3.3/Murmble_2.3.3_x64-setup.exe"
     },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTYXdLN09jQlhNRVc1dnZNRXkwMXNSL0tjL2huWFlHNTA1T2VMdWlUU0wvZ1cyRU9xdEJQV2kvaHlaY0NXNGZ1aEJoNXIzZk0wY3RSUmpHcVFtYTlsaHhIT0gwU1ZDOEFrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgwNjU5OTc4CWZpbGU6TXVybWJsZS5hcHAudGFyLmd6Cmg5a0JIcUsxYUdqM3NpRWF5d3hNMjBxUWtWbzhlM2FIcTZPYTB3UzNXcVZvWlk4S01WVGxoY3dtbmJYODdwcnM5VEFOb29YUzNReWlDZFo3R2sxbUNnPT0K",
-      "url": "https://gh-proxy.com/https://github.com/CoconutHR/MurmblePages/releases/download/v2.3.2/Murmble.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTYXdLN09jQlhNRWRpUTkyT0NQaG42OGovVlE3dVc0TjJRRXVEQnNFSjdmODR5L0RnbEhENit6NU0xeURpZlZxbnFXdEhRK1BxWWhTT2xkdnpjTERWdFk0UVdaeUxqL2dVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgwNjg5NTcxCWZpbGU6TXVybWJsZS5hcHAudGFyLmd6ClV1RkR2dmtOcEZtVzArUHRLbURoVVdsVE81MlJLZkkvcG90SThzdjdJOEpPT0dFeFpqSGJ6N3RiK3IxUW0xZzB0VHdxNk9Gczh0LzFjSGZSYXkvN0J3PT0K",
+      "url": "https://murmble.qzz.io/dl/v2.3.3/Murmble.app.tar.gz"
     },
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTYXdLN09jQlhNRVc1dnZNRXkwMXNSL0tjL2huWFlHNTA1T2VMdWlUU0wvZ1cyRU9xdEJQV2kvaHlaY0NXNGZ1aEJoNXIzZk0wY3RSUmpHcVFtYTlsaHhIT0gwU1ZDOEFrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgwNjU5OTc4CWZpbGU6TXVybWJsZS5hcHAudGFyLmd6Cmg5a0JIcUsxYUdqM3NpRWF5d3hNMjBxUWtWbzhlM2FIcTZPYTB3UzNXcVZvWlk4S01WVGxoY3dtbmJYODdwcnM5VEFOb29YUzNReWlDZFo3R2sxbUNnPT0K",
-      "url": "https://gh-proxy.com/https://github.com/CoconutHR/MurmblePages/releases/download/v2.3.2/Murmble.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTYXdLN09jQlhNRWRpUTkyT0NQaG42OGovVlE3dVc0TjJRRXVEQnNFSjdmODR5L0RnbEhENit6NU0xeURpZlZxbnFXdEhRK1BxWWhTT2xkdnpjTERWdFk0UVdaeUxqL2dVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgwNjg5NTcxCWZpbGU6TXVybWJsZS5hcHAudGFyLmd6ClV1RkR2dmtOcEZtVzArUHRLbURoVVdsVE81MlJLZkkvcG90SThzdjdJOEpPT0dFeFpqSGJ6N3RiK3IxUW0xZzB0VHdxNk9Gczh0LzFjSGZSYXkvN0J3PT0K",
+      "url": "https://murmble.qzz.io/dl/v2.3.3/Murmble.app.tar.gz"
     },
     "linux-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTYXdLN09jQlhNRVVKdVN1R2FmVWIxVWEzTDhySG54OHN2MjliV1FnSHlBTU1iRTlibzRYMFdlV0pGV2pNQkRFc1I4RXZmd1hTQzlDRnEzV0FjM2RvTElOTWthREtnS1FRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgwNjYwMTI3CWZpbGU6TXVybWJsZV8yLjMuMl9hbWQ2NC5BcHBJbWFnZQpUSHBUNEFFcGRXMk51VWUvNmJWM0FDMXY0d1MwejlUSmRwaWxGRjhaY3lTSTBXeFVsZHUwR1JrSk1OcXdqdnhPNVZZcVorRzNCU2p0dGpvcjJrVVpEQT09Cg==",
-      "url": "https://gh-proxy.com/https://github.com/CoconutHR/MurmblePages/releases/download/v2.3.2/Murmble_2.3.2_amd64.AppImage"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTYXdLN09jQlhNRVJybEdjYVBURE5BakFJeVR0SEZ6cW1SQ2QzYWlicm8yOWRncGZqMWNYblhZZnVPNTJPODZiS3VOdnJ6OWhuZzYvYU9zZ010VjNmZnJ1Mko3S2NCdXdVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgwNjg5OTY0CWZpbGU6TXVybWJsZV8yLjMuM19hbWQ2NC5BcHBJbWFnZQpXMm9tQzM4QWZwZndNckNKeEo1UTRydndHdWdxOTBQanFlaWQxVkFBRkdaRzNwZkMwVTNlN2dTSE9LMnJYaTVjN1pXckNTNjJqVEJwcDVnZ2tPMEpBUT09Cg==",
+      "url": "https://murmble.qzz.io/dl/v2.3.3/Murmble_2.3.3_amd64.AppImage"
     },
     "android-aarch64": {
       "signature": "",
-      "url": "https://gh-proxy.com/https://github.com/CoconutHR/MurmblePages/releases/download/v2.3.2/Murmble_2.3.2_aarch64.apk"
+      "url": "https://murmble.qzz.io/dl/v2.3.3/Murmble_2.3.3_aarch64.apk"
     }
   }
 }
