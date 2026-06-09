@@ -1,27 +1,27 @@
 {
-  "version": "v2.3.4",
-  "notes": "Murmble v2.3.4 released.",
-  "pub_date": "2026-06-08T10:26:57Z",
+  "version": "v2.3.5",
+  "notes": "Murmble v2.3.5 released.",
+  "pub_date": "2026-06-09T06:16:07Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTYXdLN09jQlhNRWFZcDFvV2V6clhYVGt4RjFydThmUzhXc3dXUFhORDBYenNCRU51STZUaUduTlVDMDBnTEhuME5yNDFSeWJ0ZkxueHBqZHovN2htREVWNGVMZ3dyK0EwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgwOTE0MzAxCWZpbGU6TXVybWJsZV8yLjMuNF94NjQtc2V0dXAuZXhlCm9NV3JVTGE4VjhqVXpmMytDbnVzczA5cUJUbWlteTZuQW5NTXplcXFZL0lidTdJUWVTcU1KWitrRlRLd2dPVzJ2RmhaeGFQT1hRTU1tOEhMcVBIVEFBPT0K",
-      "url": "https://murmble.qzz.io/dl/v2.3.4/Murmble_2.3.4_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTYXdLN09jQlhNRWZ0VmJTZGk2Zm5oVWNqNjJGYm9rNVgrb3RvWVFhSkNLdmVCQ0ZvRU1YM0J4Q0VjckgzcDFncmpJTmpvMngyMlRzbVBtMXVNdW1ESXJNYS9hYStyRUFjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgwOTg1NTc3CWZpbGU6TXVybWJsZV8yLjMuNV94NjQtc2V0dXAuZXhlCks1YlFYK1RScmRRSUZKTmIrL2JsdDBVNVc1M0R2dTlvYS9xY1pVREgzb25KdXoxTGNsNExHN0o1Q2JDOU15d2ZEa2ZMa004cHFES2tGYktzbXliUkFRPT0K",
+      "url": "https://murmble.qzz.io/dl/v2.3.5/Murmble_2.3.5_x64-setup.exe"
     },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTYXdLN09jQlhNRWFrY3RXdlcvS3RHZkdNb2s1bE1FOHV2VVpBZHpEMG45T2NZaC8yMVBiNkpXLy8rU2tXOVZyQXFQQlFuekIzNzczbHhPck81QUlYT0hEcHlJbHkydndVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgwOTEzNjUzCWZpbGU6TXVybWJsZS5hcHAudGFyLmd6CjhJZE9BN0N5Q2Vodk5nelpTMGRjWGZaR0FuakZSMlljdzA0YktqeHdyZS9reHFuTlZxSGNnTk00MlRnMjErbms5dGw0ckNGNkNaZ1kvZjNVVkl1ckJ3PT0K",
-      "url": "https://murmble.qzz.io/dl/v2.3.4/Murmble.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTYXdLN09jQlhNRVpDeXBaL05Hb3NCQ2RidC83N3NBQTNzZVMyaWJ4WmJ2dmxkTHYyWDJPS0ZJYWNJSXVmTWRCTm1DeW1kS1RvYTJjcEU2VllUWHY1SVk0V2NaQlgvaEFzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgwOTg0NzMwCWZpbGU6TXVybWJsZS5hcHAudGFyLmd6CnZ0U2l6N2x2ZW1wMTFEbDJGMVczVHBYNTRrOXFnY2JDQ1d3dnI1VTNvSmxYVitPRGQrWWJlRDVOTFBnbzUySkc2eTVsSDBsSno4WWtqS2t4MUZRRUNnPT0K",
+      "url": "https://murmble.qzz.io/dl/v2.3.5/Murmble.app.tar.gz"
     },
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTYXdLN09jQlhNRWFrY3RXdlcvS3RHZkdNb2s1bE1FOHV2VVpBZHpEMG45T2NZaC8yMVBiNkpXLy8rU2tXOVZyQXFQQlFuekIzNzczbHhPck81QUlYT0hEcHlJbHkydndVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgwOTEzNjUzCWZpbGU6TXVybWJsZS5hcHAudGFyLmd6CjhJZE9BN0N5Q2Vodk5nelpTMGRjWGZaR0FuakZSMlljdzA0YktqeHdyZS9reHFuTlZxSGNnTk00MlRnMjErbms5dGw0ckNGNkNaZ1kvZjNVVkl1ckJ3PT0K",
-      "url": "https://murmble.qzz.io/dl/v2.3.4/Murmble.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTYXdLN09jQlhNRVpDeXBaL05Hb3NCQ2RidC83N3NBQTNzZVMyaWJ4WmJ2dmxkTHYyWDJPS0ZJYWNJSXVmTWRCTm1DeW1kS1RvYTJjcEU2VllUWHY1SVk0V2NaQlgvaEFzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgwOTg0NzMwCWZpbGU6TXVybWJsZS5hcHAudGFyLmd6CnZ0U2l6N2x2ZW1wMTFEbDJGMVczVHBYNTRrOXFnY2JDQ1d3dnI1VTNvSmxYVitPRGQrWWJlRDVOTFBnbzUySkc2eTVsSDBsSno4WWtqS2t4MUZRRUNnPT0K",
+      "url": "https://murmble.qzz.io/dl/v2.3.5/Murmble.app.tar.gz"
     },
     "linux-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTYXdLN09jQlhNRVNmVlZMdSt3TVUyTENUamNzUFhVNW9nY0FJZ2V3Q0VLNWlrTElZVlN5eUkzcTltS3d5SkFTK01YMXVsZThEaTgwQlphbEZXaXBFR3VBZUZ0M0lyaGdrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgwOTE0MDU1CWZpbGU6TXVybWJsZV8yLjMuNF9hbWQ2NC5BcHBJbWFnZQpRRFBCZVQzMGZwOEJnb3Qvby9HWVpLaG9jcVpDYUpUdm8ySEVpK284YnRFMzlFMExGK2lNMEU2SnJUd3NveVFjelBIWk5JSVR5TnFZTndOVkRKNXZDdz09Cg==",
-      "url": "https://murmble.qzz.io/dl/v2.3.4/Murmble_2.3.4_amd64.AppImage"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTYXdLN09jQlhNRWQ1ZkFDM3JTVlB6dkJISjQ3NkFETFpUN285ei9xUkF3d3g3VEx2ZDA3Z0ZIbXlMSTA5ZUMzODJwdlgwUGw1blFFbHRDMG5yS0JCbkxXMGhEU3c4V0FzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgwOTg1MTYxCWZpbGU6TXVybWJsZV8yLjMuNV9hbWQ2NC5BcHBJbWFnZQo4OGZQK0dYWmFaWW9HOHBLTWVFVWVZWG1tdDE2Ymx2NWd1MFk1NjlDQ29zazBPZERaUXpzRndlT0hQSVJEd01DUmZEVVg0K0Fsem5tWUpEckNucStDdz09Cg==",
+      "url": "https://murmble.qzz.io/dl/v2.3.5/Murmble_2.3.5_amd64.AppImage"
     },
     "android-aarch64": {
       "signature": "",
-      "url": "https://murmble.qzz.io/dl/v2.3.4/Murmble_2.3.4_aarch64.apk"
+      "url": "https://murmble.qzz.io/dl/v2.3.5/Murmble_2.3.5_aarch64.apk"
     }
   }
 }
