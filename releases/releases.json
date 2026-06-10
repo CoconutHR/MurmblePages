@@ -1,48 +1,48 @@
 {
-  "version": "v2.3.6",
-  "date": "2026-06-09",
+  "version": "v2.3.7",
+  "date": "2026-06-10",
   "files": [
     {
-      "name": "Murmble_2.3.6_aarch64.apk",
+      "name": "Murmble_2.3.7_aarch64.apk",
       "size": "38.1 MB",
       "type": "apk",
       "platform": "android",
-      "url": "https://murmble.qzz.io/dl/v2.3.6/Murmble_2.3.6_aarch64.apk"
+      "url": "https://murmble.qzz.io/dl/v2.3.7/Murmble_2.3.7_aarch64.apk"
     },
     {
-      "name": "Murmble_2.3.6_aarch64.dmg",
+      "name": "Murmble_2.3.7_aarch64.dmg",
       "size": "8.9 MB",
       "type": "dmg",
       "platform": "macos",
-      "url": "https://murmble.qzz.io/dl/v2.3.6/Murmble_2.3.6_aarch64.dmg"
+      "url": "https://murmble.qzz.io/dl/v2.3.7/Murmble_2.3.7_aarch64.dmg"
     },
     {
-      "name": "Murmble_2.3.6_amd64.AppImage",
+      "name": "Murmble_2.3.7_amd64.AppImage",
       "size": "83.1 MB",
       "type": "appimage",
       "platform": "linux",
-      "url": "https://murmble.qzz.io/dl/v2.3.6/Murmble_2.3.6_amd64.AppImage"
+      "url": "https://murmble.qzz.io/dl/v2.3.7/Murmble_2.3.7_amd64.AppImage"
     },
     {
-      "name": "Murmble_2.3.6_amd64.deb",
+      "name": "Murmble_2.3.7_amd64.deb",
       "size": "9.8 MB",
       "type": "deb",
       "platform": "linux",
-      "url": "https://murmble.qzz.io/dl/v2.3.6/Murmble_2.3.6_amd64.deb"
+      "url": "https://murmble.qzz.io/dl/v2.3.7/Murmble_2.3.7_amd64.deb"
     },
     {
-      "name": "Murmble_2.3.6_x64-setup.exe",
+      "name": "Murmble_2.3.7_x64-setup.exe",
       "size": "5.4 MB",
       "type": "nsis",
       "platform": "windows",
-      "url": "https://murmble.qzz.io/dl/v2.3.6/Murmble_2.3.6_x64-setup.exe"
+      "url": "https://murmble.qzz.io/dl/v2.3.7/Murmble_2.3.7_x64-setup.exe"
     },
     {
-      "name": "Murmble_2.3.6_x64_en-US.msi",
+      "name": "Murmble_2.3.7_x64_en-US.msi",
       "size": "7.9 MB",
       "type": "msi",
       "platform": "windows",
-      "url": "https://murmble.qzz.io/dl/v2.3.6/Murmble_2.3.6_x64_en-US.msi"
+      "url": "https://murmble.qzz.io/dl/v2.3.7/Murmble_2.3.7_x64_en-US.msi"
     }
   ]
 }
