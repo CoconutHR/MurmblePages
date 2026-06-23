@@ -1,41 +1,20 @@
 {
-  "version": "v2.3.10",
+  "version": "v2.4.1",
   "date": "2026-06-23",
   "files": [
     {
-      "name": "Murmble_2.3.10_aarch64.apk",
-      "size": "38.1 MB",
+      "name": "Murmble_2.4.1_aarch64.apk",
+      "size": "38.2 MB",
       "type": "apk",
       "platform": "android",
-      "url": "https://murmble.qzz.io/dl/v2.3.10/Murmble_2.3.10_aarch64.apk"
+      "url": "https://murmble.qzz.io/dl/v2.4.1/Murmble_2.4.1_aarch64.apk"
     },
     {
-      "name": "Murmble_2.3.10_aarch64.dmg",
-      "size": "8.9 MB",
-      "type": "dmg",
-      "platform": "macos",
-      "url": "https://murmble.qzz.io/dl/v2.3.10/Murmble_2.3.10_aarch64.dmg"
-    },
-    {
-      "name": "Murmble_2.3.10_amd64.AppImage",
-      "size": "83.1 MB",
-      "type": "appimage",
-      "platform": "linux",
-      "url": "https://murmble.qzz.io/dl/v2.3.10/Murmble_2.3.10_amd64.AppImage"
-    },
-    {
-      "name": "Murmble_2.3.10_amd64.deb",
-      "size": "9.8 MB",
-      "type": "deb",
-      "platform": "linux",
-      "url": "https://murmble.qzz.io/dl/v2.3.10/Murmble_2.3.10_amd64.deb"
-    },
-    {
-      "name": "Murmble_2.3.10_x64-setup.exe",
+      "name": "Murmble_2.4.1_x64-setup.exe",
       "size": "5.4 MB",
       "type": "nsis",
       "platform": "windows",
-      "url": "https://murmble.qzz.io/dl/v2.3.10/Murmble_2.3.10_x64-setup.exe"
+      "url": "https://murmble.qzz.io/dl/v2.4.1/Murmble_2.4.1_x64-setup.exe"
     }
   ]
 }
