@@ -1,48 +1,41 @@
 {
-  "version": "v2.4.2",
-  "date": "2026-07-01",
+  "version": "v2.4.3",
+  "date": "2026-07-16",
   "files": [
     {
-      "name": "Murmble_2.4.2_aarch64.dmg",
-      "size": "9.0 MB",
+      "name": "Murmble_2.4.3_aarch64.dmg",
+      "size": "8.9 MB",
       "type": "dmg",
       "platform": "macos",
-      "url": "https://murmble.qzz.io/dl/v2.4.2/Murmble_2.4.2_aarch64.dmg"
+      "url": "https://murmble.qzz.io/dl/v2.4.3/Murmble_2.4.3_aarch64.dmg"
     },
     {
-      "name": "Murmble_2.4.2_aarch64_api26.apk",
-      "size": "28.4 MB",
+      "name": "Murmble_2.4.3_aarch64_api26.apk",
+      "size": "30.5 MB",
       "type": "apk",
       "platform": "android",
-      "url": "https://murmble.qzz.io/dl/v2.4.2/Murmble_2.4.2_aarch64_api26.apk"
+      "url": "https://murmble.qzz.io/dl/v2.4.3/Murmble_2.4.3_aarch64_api26.apk"
     },
     {
-      "name": "Murmble_2.4.2_aarch64_api30.apk",
-      "size": "38.3 MB",
-      "type": "apk",
-      "platform": "android",
-      "url": "https://murmble.qzz.io/dl/v2.4.2/Murmble_2.4.2_aarch64_api30.apk"
-    },
-    {
-      "name": "Murmble_2.4.2_amd64.AppImage",
-      "size": "83.2 MB",
+      "name": "Murmble_2.4.3_amd64.AppImage",
+      "size": "83.5 MB",
       "type": "appimage",
       "platform": "linux",
-      "url": "https://murmble.qzz.io/dl/v2.4.2/Murmble_2.4.2_amd64.AppImage"
+      "url": "https://murmble.qzz.io/dl/v2.4.3/Murmble_2.4.3_amd64.AppImage"
     },
     {
-      "name": "Murmble_2.4.2_amd64.deb",
-      "size": "9.9 MB",
+      "name": "Murmble_2.4.3_amd64.deb",
+      "size": "10.2 MB",
       "type": "deb",
       "platform": "linux",
-      "url": "https://murmble.qzz.io/dl/v2.4.2/Murmble_2.4.2_amd64.deb"
+      "url": "https://murmble.qzz.io/dl/v2.4.3/Murmble_2.4.3_amd64.deb"
     },
     {
-      "name": "Murmble_2.4.2_x64-setup.exe",
-      "size": "5.4 MB",
+      "name": "Murmble_2.4.3_x64-setup.exe",
+      "size": "5.5 MB",
       "type": "nsis",
       "platform": "windows",
-      "url": "https://murmble.qzz.io/dl/v2.4.2/Murmble_2.4.2_x64-setup.exe"
+      "url": "https://murmble.qzz.io/dl/v2.4.3/Murmble_2.4.3_x64-setup.exe"
     }
   ]
 }
