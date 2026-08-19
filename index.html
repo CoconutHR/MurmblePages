@@ -858,7 +858,7 @@
                 </a>
                 <a href="#" class="btn-secondary" id="fast-download-btn" onclick="fastDownload(event)">
                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
-                    加速下载
+                    快速下载
                 </a>
             </div>
             <p class="version-tag">支持 Windows · macOS · Linux · Android 四平台</p>
@@ -1112,7 +1112,7 @@
 
         document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
 
-        // 加速下载：检测平台，从 releases.json 获取对应链接
+        // 快速下载：检测平台，从 releases.json 获取对应链接
         function fastDownload(e) {
             e.preventDefault();
             const btn = document.getElementById('fast-download-btn');
@@ -1134,15 +1134,15 @@
                     if (!target) target = files.find(f => f.platform === platform);
 
                     if (target && target.url) {
-                        btn.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg> 加速下载';
+                        btn.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg> 快速下载';
                         window.location.href = target.url;
                     } else {
-                        btn.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg> 加速下载';
+                        btn.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg> 快速下载';
                         window.location.href = './releases/';
                     }
                 })
                 .catch(() => {
-                    btn.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg> 加速下载';
+                    btn.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg> 快速下载';
                     window.location.href = './releases/';
                 });
         }
