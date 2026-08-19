@@ -158,6 +158,12 @@
             border: 1px solid rgba(45, 212, 191, 0.2);
         }
 
+        .badge-apk {
+            background: rgba(167, 139, 250, 0.16);
+            color: #c4b5fd;
+            border: 1px solid rgba(167, 139, 250, 0.25);
+        }
+
         .empty-state {
             text-align: center;
             padding: 60px 20px;
@@ -190,7 +196,7 @@
             返回首页
         </a>
         <h1>下载 Murmble</h1>
-        <p class="subtitle">选择适合你的安装包格式</p>
+        <p class="subtitle">选择适合你设备的安装包，Android 需要 8.0 或更高版本。</p>
         <div class="file-list" id="file-list">
         </div>
         <a href="https://github.com/CoconutHR/MurmblePages/releases" class="history-link" target="_blank">
@@ -223,6 +229,10 @@
                         badgeClass = 'badge-appimage';
                         badgeText = 'AppImage';
                         desc = 'Linux 便携运行格式';
+                    } else if (ext === 'apk') {
+                        badgeClass = 'badge-apk';
+                        badgeText = 'APK';
+                        desc = 'Android 8.0+ ARM64 安装包';
                     } else if (ext === 'exe') {
                         badgeClass = 'badge-exe';
                         badgeText = 'NSIS';
