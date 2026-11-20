@@ -1,31 +1,31 @@
 {
-  "version": "v2.5.7",
-  "notes": "- 发布：升级至 v2.5.7\n- 功能：手机端沉浸模式隐藏顶部状态栏\n- 功能：音源解析失败时提示对应音源并补充播放动作诊断日志\n- 功能：接入临时替补QQ音源并优先使用，海棠服务作为回退\n- 功能：Android 更新下载改为分段并发",
-  "pub_date": "2026-11-10T07:02:52Z",
+  "version": "v2.5.8",
+  "notes": "- 发布：升级至 v2.5.8\n- 功能：播放排行榜与周期日历选择面板",
+  "pub_date": "2026-11-20T11:21:11Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTYXdLN09jQlhNRVZlanRhRlJmYmR3NGFhd1VHRWRRT2FmalI3b0JnNHNYdklFNWtndUhRbi94bnpaSHdiSnE4MTFZYzRlN0ttdlVZc0E1WlMrMWhIODBIdVpncTRrdmdrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0Mjk0MDI3CWZpbGU6TXVybWJsZV8yLjUuN194NjQtc2V0dXAuZXhlCi82T1NnTmJXZm1HMGxDelI3SlJ4S1ViMUEyczlsUjc5SWM4Ui9hMHRQbFUxV1BnV0dHeDRBcGpqODA2V01vUis3OWN3aGVoK0JPemYxU1pVNGVzaERBPT0K",
-      "url": "https://murmble.qzz.io/dl/v2.5.7/Murmble_2.5.7_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTYXdLN09jQlhNRVZwRUgrZVdQZDFNcG9qeFNmTUp6dElOVUN3cllNQ290ZzNJWk9nYW5IbnV2bmJMcHpsbG1Jak9wUEFrK2VXdFpzOGd3YS84SEcycFFUOWROV1dxb3dFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MTczMjYyCWZpbGU6TXVybWJsZV8yLjUuOF94NjQtc2V0dXAuZXhlCk9zODBnUWZQS0gxY1dERWhSVnZ4anM3Q0tuWmlpSUdrdGpLWEpSMW1ndUdXbFB6QXBJTmpUbmxnQk0zR2dObVlqSVhsU3ppalo2RjNGdldvaEJzUEJnPT0K",
+      "url": "https://murmble.qzz.io/dl/v2.5.8/Murmble_2.5.8_x64-setup.exe"
     },
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTYXdLN09jQlhNRWJNaVhWMlNVRG5PRlhXd2ovRzNTSFd0YkJKdElrYW5XcW9UQTZQeTNuU0JwYzA5QVVidm9LRE5ETlljdnArejNUaUpDV3BTYUdxdEtkYVhLejlGWXd3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MjkzMTAzCWZpbGU6TXVybWJsZS5hcHAudGFyLmd6CnNxQkxIOWRYVDFPOVh4clYxWTRPUXJQaXRRUEZocVFGVHZpd0NFUnpSckRoZHRXQkVWWVZ5bXVLN3MzaTJWV0ZHR1ZJMzE3d2N0dVd1NDVkekVRdEFnPT0K",
-      "url": "https://murmble.qzz.io/dl/v2.5.7/Murmble.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTYXdLN09jQlhNRWI0L1lXM3NJUDUxdWR3eHF6WFBnZ3pGLzZNSCtpNXNTSkJIS0czalRCQVk0UEh6V1RHT3IyT2xTbklOUUhmSFhWOXNhWVYwazh2WklLeFkrMFdmTmdjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MTcyNzE1CWZpbGU6TXVybWJsZS5hcHAudGFyLmd6Ci9jNnNLYmZDZFVBV0l0RkhVN2hiSWRxV0xuSnRTaEpWbzhWSDIyQUdSck82a3V2d0xSNEhFWFpkUG1KcVZOVWFYWkZxQXc5NnQ4WU10S2dXMlRGa0FnPT0K",
+      "url": "https://murmble.qzz.io/dl/v2.5.8/Murmble.app.tar.gz"
     },
     "linux-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTYXdLN09jQlhNRWNOdE1pa1JHd3NwTDRETGFjcXNTcjJ0V0xQWE4wMHZSZHJaMVNCY1VUVjZZVXg2NVYyOTNmMTkydW5ib3hRdWtONnJSWTVGSWIxdkhrOGlTZTNxcXdVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MjkzNzk1CWZpbGU6TXVybWJsZV8yLjUuN19hbWQ2NC5BcHBJbWFnZQowZzNMeW94R05iaTd4Nnk5YkVBdlVnYmpFRDFFTWlhQTBGd1g0a1pObHJTSTkxNGEwcS84VW9DZ3ZKNTl0V21tVjcxSmRTVGlzMG1wZEVaV2ltaGZBQT09Cg==",
-      "url": "https://murmble.qzz.io/dl/v2.5.7/Murmble_2.5.7_amd64.AppImage"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTYXdLN09jQlhNRVY1N0xYeUZXNWgyWWJmTnQ0TGxyK3FWUDhScndCZ1Nud3lRdVI0ejkzVTg0US9XYjNSKzB0UjVVNVhQMlVoemM1T1JaNFBqdlU2aThmeTRVSVBlTUF3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MTczMDQwCWZpbGU6TXVybWJsZV8yLjUuOF9hbWQ2NC5BcHBJbWFnZQpHeCszK00zd3Z4ZmdUVGlhdWxIMDhvTFFENk14RzE2UXBDWm5ob1I3TFIwek5KRTNBQmwrTFlOY0VSVklBZC9vZThjZWtMNXBrK0dtaXlMdUhlcEtCUT09Cg==",
+      "url": "https://murmble.qzz.io/dl/v2.5.8/Murmble_2.5.8_amd64.AppImage"
     },
     "android-aarch64-api26": {
       "signature": "",
-      "url": "https://murmble.qzz.io/dl/v2.5.7/Murmble_2.5.7_aarch64_api26.apk",
-      "sha256": "23cf837e4a3b111057d37952706e133e987f09f799fbfcedc9d781b3b75ac7ba",
-      "size": 49181401
+      "url": "https://murmble.qzz.io/dl/v2.5.8/Murmble_2.5.8_aarch64_api26.apk",
+      "sha256": "4a6ed5ce27d2747f989399393f3b24d8d7d4d365a77213fa8c9e2b3cf3a40a74",
+      "size": 49173669
     },
     "android-aarch64": {
       "signature": "",
-      "url": "https://murmble.qzz.io/dl/v2.5.7/Murmble_2.5.7_aarch64_api26.apk",
-      "sha256": "23cf837e4a3b111057d37952706e133e987f09f799fbfcedc9d781b3b75ac7ba",
-      "size": 49181401
+      "url": "https://murmble.qzz.io/dl/v2.5.8/Murmble_2.5.8_aarch64_api26.apk",
+      "sha256": "4a6ed5ce27d2747f989399393f3b24d8d7d4d365a77213fa8c9e2b3cf3a40a74",
+      "size": 49173669
     }
   }
 }
